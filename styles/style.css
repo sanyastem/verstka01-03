@@ -333,7 +333,6 @@ ul.tabs {
 	color: #fff;
 	display: inline-block;
 	padding: 20px 50px;
-	border: 2px solid #fff;
 	font-size: 15px;
 	text-decoration: none;
 	font-weight: 600;
@@ -897,4 +896,15 @@ display: block;
 float: none; 
 margin-bottom: 30px; 
 } 
+}
+@media screen and (max-width:480px){
+	.right-block-social{
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+	.socialIcon i{
+		margin-top: 0;
+		margin-right: 15px;
+		font-size: 1.8em;
+	}
 }
