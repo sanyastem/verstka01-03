@@ -14,7 +14,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 14px;
 	font: inherit;
 	vertical-align: baseline;
 	font-family: "Open Sans", sans-serif;
@@ -24,9 +24,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -64,7 +62,7 @@ header{
 	overflow: hidden;
 }
 .center{
-	max-width: 1170px;
+	max-width: 85%;
 	margin:0 auto;
 }
 .logo-small{
@@ -78,11 +76,12 @@ header{
 	float: left;
 }
 .menu li a{
-	font-family: "Open Sans Semibold";
+	font-family: "Open Sans Semi-bold";
 	color:#848484 ;
-	padding: 25px 15px;
+	padding: 25px 20px;
 	display: block;
-
+    font-weight: bold;
+    font-size: 14px;
 }
 .menu li a:hover{
 	color:#fff;
@@ -92,6 +91,7 @@ header{
 	padding: 30px 0 50px 0;
 }
 .pr{
+    font-family: "Open Sans Regular", sans-serif;
 	font-size: 1.92em;
 	font-weight: 600;
 	text-align: center;
@@ -104,19 +104,22 @@ header{
 }
 .left-block h3{
 	padding: 20px 0 40px 0;;
-	width: 65%;
 	color: #fff;
-	font-size: 1.64em;
+	font-size: 36px;
+    font-family: "Myriad Pro Regular", sans-serif;
 }
 .left-block p{
-	color: #aeaeae;
+	color: #c7c7c7;
 	padding: 40px 0 20px 0;
 	width: 85%;
+    font-family: "Myriad Pro Regular", sans-serif;
+    line-height: 1.2;
 }
 .line{
 	background: #fff;
 	width: 60px;
 	padding-bottom: 2px;
+    box-shadow:-1px 5px 10px rgba(0,0,0,0);
 }
 .btn-dowload{
 	color: #fff;
@@ -128,6 +131,9 @@ header{
 	font-weight: 600;
 	margin-top: 30px;
 	cursor: pointer;
+    font-family: "Open Sans Semi-bold", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
 }
 .btn-dowload:hover{
 	color:#9a9a9a;
@@ -161,50 +167,63 @@ header{
 	padding: 27px 0 27px 0;
 	color:#fff;
 	cursor: pointer;
+    font-family: "Open Sans Semi-bold", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
 }
 .form-registr{
 	background: #fff;
 	width: 362px;
 	height: 367px;
-	margin-left: 16.333333%;
+	margin-left: 31.333333%;
 	margin-right: 16%;
 	border-radius: 3px;
+    box-shadow:-1px 5px 10px rgba(0,0,0,0.5);
+    margin-bottom: 140px;
 }
 
 .inpute{
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
 	width: 85%;
 	margin: 45px 6.5% 0 6.5%;
 	padding-top: 0;
 	border: 0;
 	border-bottom: 1px solid #d6d6d6;
 	outline: none;
-
+    padding-left: 15px;
 }
 .social{
 	background: #fff;
 	border-bottom: 1px solid #b7b7b7;
 }
-.social .left-block h2{
+.social .left-block-social h2{
 	margin-top: 24px;
+    font-weight: bold;
+    font-size: 20px;
 }
-.social .left-block p{
+.social .left-block-social p{
 	color: #a4a5a8;
 	padding: 0;
 	padding-top:12px ;
 	padding-bottom: 22px;
 	width: 80%;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
 }
 .block2-section{
 	background: #f5f5f5;
 }
-.tabs{
+.tobs{
 	float: left;
 	margin-bottom: 150px;
 	margin-top: 100px;
+	width: 51%;
 }
 .block2-section img{
 	float: right;
 	margin-top: 100px;
+	margin-right: 215px;
 }
 /* Tabs style*/
 .jssort13 .p .c, .jssort13 .pav:hover .c {
@@ -256,6 +275,7 @@ ul.tabs {
 	cursor: pointer;
 	background: #333333;
 	position: relative;
+    font-weight: bold;
 }
 .tabs li:hover,
 .vertical .tabs li:hover {
@@ -269,20 +289,29 @@ ul.tabs {
 	display: none;
 	background: #f5f5f5;
 	padding: 0 12px;
-	margin-left: 40px;
+	margin-left: 180px;
 }
 .box.visible {
 	display: block;
 }
-
-.section.vertical {
-	width: 440px;
+.box h3{
+    margin-bottom: 55px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.box p{
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color:#a2a3a6;
+}
+.textPrewi{
+    margin:25px 0 20px 0 ;
 }
 .vertical .tabs {
 	width: 113px;
 	float: left;
 	display: inline;
-	margin: 0 0 0 -160px;
+	margin: 0 0 0 0px;
 }
 .vertical .tabs li {
 	/* padding: 0 13px 2px; */
@@ -312,16 +341,31 @@ ul.tabs {
 	cursor: pointer;
 	background: #ff8b38;
     border-radius: 7px;
+    font-family: "Open Sans Semi-bold", sans-serif;
+    font-size: 15px;
 }
 .btn-tab:hover{
 	color:#fff;
 	background: #333333;
 }
+.left-block-social{
+    width: 35%;
+    display: inline-block;
+}
+.right-block-social{
+    width: 65%;
+    float: right;
+    margin-top: 15px;
+
+}
 .socialIcon{
 	margin-top: 24px;
 }
 .socialIcon i{
-	margin-right:30px ;
+	margin-right:70px ;
+}
+.socialIcon i:last-child{
+    margin: 0;
 }
 .fa-facebook,.fa-twitter,.fa-google-plus,.fa-pinterest,.fa-instagram,.fa-rss,.fa-stumbleupon {
 	color: #ccc;
@@ -332,16 +376,18 @@ ul.tabs {
 	width: 450px;
 	height: 300px;
 	margin-bottom: 140px;
-	box-shadow:5px 9px 10px rgba(154,154,154,0.7);
+	box-shadow:10px 18px 40px rgba(154,154,154,0.7);
 
 }
 .imageInsert p,.imageInsertTwo p{
-	margin-left: 25%;
-    margin-top: 25%;
+	margin-left: 24%;
+	margin-top: 22%;
     font-size: 33.03px;
     text-align: center;
     width: 50%;
 	color: #b0b0b0;
+    font-family: "Open Sans Regular",sans-serif;
+
 }
 .imageInsert{
 	margin-top:125px ;
@@ -357,6 +403,8 @@ ul.tabs {
 }
 .text h2,.textTwo h2{
     margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
 .textPrew{
     margin-top: 30px;
@@ -369,7 +417,7 @@ ul.tabs {
 	font-weight: bold;
 }
 .textTitle{
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	width: 85%;
 }
 .textTwo{
@@ -384,13 +432,18 @@ ul.tabs {
     margin-left: 12px;
 
 }
+.textPrew,.textTitle{
+    font-family: "Open Sans Regular", sans-serif;
+    color: #86878b;
+}
 .circleI{
     background: url("../images/list_icon_.png") no-repeat;
     width: 45px;
     height: 45px;
     float: left;
     margin-right: 25px;
-	margin-top: 10px;
+    margin-top: 15px;
+    padding-bottom: 20px;
 }
 .block4-section{
 	background: #f5f5f5;
@@ -402,6 +455,8 @@ ul.tabs {
 .block5-section h2{
 	margin-top: 110px;
 	margin-bottom: 33px;
+    font-family: "Raleway Regular", sans-serif;
+    font-size: 36px;
 }
 .lineTitle{
 	width: 70px;
@@ -413,16 +468,23 @@ ul.tabs {
 }
 .block5-section p{
 	margin: 31px 0 80px 0;
+    font-family: "Open Sans Regular", sans-serif;
+    color: #86878b;
 }
 .awesome{
-	width: 33%;
+	width: 30%;
 	display: inline-block;
+	margin-right: 20px;
 }
 .awesome h3{
 	margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
 }
 .awesome p{
 	margin: 25px 0 105px 0;
+    font-family: "Open Sans Regular", sans-serif;
+    color: #86878b;
 }
 .circle i{
 	color: #ff8b38;
@@ -444,35 +506,42 @@ ul.tabs {
 }
 .block6-section h2{
 	margin: 105px 0 30px 0;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
 }
 .sit{
 	margin-top: 30px;
+    font-family: "Open Sans Regular", sans-serif;
+    color: #86878b;
 }
 .sittwo{
     margin-top:30px;
     font-size: 16px;
-    color: #cacacc;
+    color: #86878b;
     text-align: center;
+    font-family: "Open Sans Regular", sans-serif;
 }
 .block6-section h3{
     padding: 30px 0 30px 0 ;
     border-bottom: #fff solid 1px;
+    font-weight: bold;
+    font-size: 20px;
 }
 .buySmall{
 	width: 345px;
-	height:465px;
 	display: inline-block;
 	background: #fff;
-	margin-right: 5px;
+    margin-right: 25px;
 	margin-top: 115px;
 }
 .buyBig{
 	width: 345px;
-	height:500px;
 	display: inline-block;
 	background: #fff;
-	margin-right: 5px;
+    margin-right: 25px;
 	margin-top: 80px;
+    margin-bottom: 95px;
 }
 .prices{
     background: #333;
@@ -481,19 +550,29 @@ ul.tabs {
 }
 .infoPrices{
     color: #666;
+    margin: 30px 0 20px 0;
+    font-family: "Open Sans Semi-bold", sans-serif;
+    font-style:italic ;
+    font-weight: bold;
 }
 .textInfo{
     color:#86878b;
     border-bottom: 1px solid #f5f5f5;
     padding: 20px 0 20px 0;
+    font-family: "Open Sans Regular", sans-serif;
 }
 .textInfoNot{
     color: #86878b;
+    padding: 20px 0 20px 0;
+    font-family: "Open Sans Regular", sans-serif;
 }
 .price{
     font-size: 94px;
     font-family: 'Raleway', sans-serif;
     font-weight:bold ;
+}
+.buyBig .price{
+    border-bottom: 1px solid #fff;
 }
 .price span{
     font-size:35px ;
@@ -501,6 +580,7 @@ ul.tabs {
 .popular{
     padding: 20px 0 20px 0;
     background: #ff8b38;
+    font-weight: bold;
 }
 .block7-section{
 	background: #fff;
@@ -512,6 +592,7 @@ ul.tabs {
     margin:75px 0 30px 0;
     font-size: 36px;
     text-align: center;
+    font-family: "Raleway", sans-serif;
 }
 .comment{
 	width: 275px;
@@ -520,19 +601,26 @@ ul.tabs {
 	margin-right:160px ;
     margin-top: 55px;
     position: relative;
+    margin-bottom: 190px;
+}
+#com{
+	margin-left: 100px;
 }
 .commentr{
     background: #f5f5f5;
-    width: 275px;
-    height: 96px;
+    width: 285px;
+    height: 110px;
     margin-bottom: 20px;
     border-radius:4px ;
-    padding: 10px 0 0 10px;
+    padding:20px 10px 25px 10px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-style: italic;
+    color:#8d8e92 ;
 }
 .commentr:after{
     content: '';
     position: absolute;
-    bottom: 124px;
+    bottom: 75px;
     left: 13%;
     transform: translate(-50%, 100%);
     width: 0;
@@ -543,14 +631,19 @@ ul.tabs {
 }
 .comment img{
     float: left;
+    margin-right: 20px;
 }
 .comment p:nth-child(3){
     margin-left: 80px;
-    margin-top: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
 }
 .comment p:nth-child(4){
     margin-top: 5px;
     margin-left: 80px;
+    font-family: "Open Sans Regular", sans-serif;
+    color: #86878b;
 }
 .comment:last-child{
 	margin: 0;
@@ -563,16 +656,23 @@ ul.tabs {
 	margin:75px 0 30px 0;
 	font-size: 36px;
 	color: #fff;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+
 }
 .block8-section p:nth-child(3){
 	margin-top:30px;
 	font-size: 16px;
 	color: #fff;
+    font-family: "Raleway Light", sans-serif;
+    font-size: 16px;
 }
-.block8-section p:nth-child(5){
-	margin:20px 0 30px 0;
+.block8-section p:nth-child(6){
+	margin:30px 0 25px 0;;
 	font-size: 16.33px;
-	color: #a7a7a7;
+	color: #ababab;
+    display: inline-block;
+    font-family: "Open Sans Regular", sans-serif;
 }
 .block8-section .lineTitle{
 	margin: 0 auto;
@@ -588,29 +688,35 @@ ul.tabs {
 .block9-section h2{
 	margin:75px 0 30px 0;
 	font-size: 36px;
+    font-family: "Raleway", sans-serif;
 }
 .block9-section p:nth-child(3){
     margin:30px 0 80px 0;
     font-size: 16px;
+    font-family: "Open Sans Regular", sans-serif;
+    color: #86878b;
 }
 .block9-section input[type="submit"]{
-	color: #fff;
-	display: block;
-	padding: 20px 50px;
-	border: 2px solid #fff;
-	font-size: 15px;
-	text-decoration: none;
-	font-weight: 600;
-	cursor: pointer;
-	background: #ff8b38;
-	border-radius: 7px;
-	margin: 0 auto;
-	outline: none;
+    color: #fff;
+    display: block;
+    padding: 17px 50.5px;
+    border: 2px solid #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    background: #ff8b38;
+    border-radius: 5px;
+    margin: 0 auto;
+    outline: none;
     margin-bottom: 80px;
+    font-family: "Open Sans Semi-bold", sans-serif;
+
 }
 .leftForm{
     float: left;
-    width: 45%;
+    width: 46%;
+    margin-right: 80px;
 }
 .leftForm input[type="text"],.leftForm input[type="email"]{
     width: 100%;
@@ -620,6 +726,8 @@ ul.tabs {
     border: 0;
     border-bottom: 1px solid #d6d6d6;
     outline:none;
+    padding-left: 15px;
+    font-family: "Open Sans Regular", sans-serif;
 }
 
 .block9-section textarea{
@@ -630,6 +738,8 @@ ul.tabs {
     border-bottom: 1px solid #d6d6d6;
     outline:none;
     resize: none;
+    padding-left: 15px;
+    font-family: "Open Sans Regular", sans-serif;
 }
 footer{
 	background: #000;
@@ -639,6 +749,8 @@ footer p{
 	color: #a2a2a2;
 	font-size: 12px;
 	margin: 15px 0 15px 0;
+    display: inline-block;
+    font-family: "Open Sans Regular", sans-serif;
 }
 footer i{
 	color: #fff;
@@ -647,4 +759,84 @@ footer i{
 }
 footer .fa-facebook,footer .fa-twitter, footer .fa-google-plus,footer .fa-pinterest,footer .fa-instagram,footer .fa-rss,footer .fa-stumbleupon{
 	font-size: 24px;
+}
+@media screen and (max-width:1500px) {
+	#com{
+		margin-left: 0;
+	}
+}
+@media screen and (max-width:1380px) {
+	.fa-3x {
+		font-size: 2.9em;
+	}
+}
+@media screen and (max-width:1355px) {
+	.fa-3x {
+		font-size: 1.8em;
+	}
+	.block2-section img{
+		margin-right: 0;
+	}
+	.socialIcon i {
+		margin-top: 20px;
+	}
+	.buySmall:last-of-type{
+		margin-top: 0;
+		margin-bottom: 95px;
+	}
+}
+@media screen and (max-width:1280px) {
+	.leftForm{
+		margin-right: 70px;
+	}
+}
+@media screen and (max-width:1170px) {
+	.left-block-social{
+		width: 100%;
+		text-align: center;
+	}
+	.right-block-social{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.social .left-block-social p{
+		width: 100%;
+	}
+	.socialIcon{
+		margin: 0 0 10px 0;
+	}
+	.text, .textTwo{
+		width: 100%;
+		float: none;
+		margin-top: 15px;
+	}
+	.lineTitle{
+		margin: 0 auto;
+	}
+	.text h2, .textTwo h2{
+		text-align: center;
+	}
+	.imageInsert, .imageInsertTwo{
+		width: 100%;
+		float: none;
+	}
+}
+@media screen and (max-width:1024px) {
+	.leftForm{
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width:945px){
+    .fa-3x {
+        font-size: 2.3em;
+    }
+    .imageInsert,.imageInsertTwo{
+        width: 95%;
+        margin-right: 15px;
+    }
+    .text,.textTwo{
+        width: 100%;
+    }
 }
