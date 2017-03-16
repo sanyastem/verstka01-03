@@ -732,7 +732,7 @@ ul.tabs {
 
 .block9-section textarea{
     width: 45%;
-    height: 160px;
+    height: 152px;
     margin-bottom: 40px;
     border: 0;
     border-bottom: 1px solid #d6d6d6;
@@ -821,22 +821,80 @@ footer .fa-facebook,footer .fa-twitter, footer .fa-google-plus,footer .fa-pinter
 		width: 100%;
 		float: none;
 	}
+	.leftForm{
+		margin-right: 0;
+	}
 }
 @media screen and (max-width:1024px) {
 	.leftForm{
 		margin-right: 0;
 	}
+	.form-registr{
+		margin: 0;
+	}
 }
 
-@media screen and (max-width:945px){
-    .fa-3x {
-        font-size: 2.3em;
-    }
-    .imageInsert,.imageInsertTwo{
-        width: 95%;
-        margin-right: 15px;
-    }
-    .text,.textTwo{
-        width: 100%;
-    }
+@media screen and (max-width:945px){ 
+.fa-3x { 
+font-size: 2.3em; 
+} 
+.imageInsert,.imageInsertTwo{ 
+width: 95%; 
+margin-right: 15px; 
+} 
+.text,.textTwo{ 
+width: 100%; 
+} 
+.tabs { 
+padding: 0; 
+margin: 0; 
+list-style: none; 
+text-align: center; 
+display: block; 
+font-size: 0; 
+} 
+
+.tabs:before { 
+content:''; 
+height: 100%; 
+display: inline-block; 
+} 
+
+.tabs { 
+padding: 10px; 
+margin: 0 20px; 
+font-size: 16px; 
+display: inline-block; 
+} 
+
+.tabs:before,.tabs li { 
+vertical-align: middle; 
+} 
+.vertical .tabs{ 
+float: none; 
+} 
+.tobs{ 
+float: none; 
+width: 100%; 
+margin-top: 0; 
+margin-bottom: 50px; 
+} 
+.vertical .tabs li:first-of-type{ 
+margin:2.6% 0.2% 0 23%; 
+} 
+.vertical .tabs li{ 
+padding: 0 13px 2px; 
+margin:20px 1px 1px 0; 
+} 
+.box{ 
+margin-top: 50px; 
+margin-left:0; 
+text-align: center; 
+} 
+.block2-section img{ 
+margin: 0 auto; 
+display: block; 
+float: none; 
+margin-bottom: 30px; 
+} 
 }
