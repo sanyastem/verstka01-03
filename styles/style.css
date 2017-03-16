@@ -834,9 +834,6 @@ footer .fa-facebook,footer .fa-twitter, footer .fa-google-plus,footer .fa-pinter
 }
 
 @media screen and (max-width:945px){ 
-.fa-3x { 
-font-size: 2.3em; 
-} 
 .imageInsert,.imageInsertTwo{ 
 width: 95%; 
 margin-right: 15px; 
@@ -896,6 +893,24 @@ display: block;
 float: none; 
 margin-bottom: 30px; 
 } 
+}
+@media screen and (max-width:768px){
+	.left-block{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.right-block{
+		    display: block;
+    width: 50%;
+    margin: 0 auto;
+	}
+	.btn-dowload{
+		display: block;
+		padding: 20px 0;
+		width: 25%;
+		text-align: center;
+		margin: 0 auto;
+	}
 }
 @media screen and (max-width:480px){
 	.right-block-social{
