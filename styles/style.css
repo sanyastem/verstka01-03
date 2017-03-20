@@ -195,7 +195,7 @@ header{
 }
 .social{
 	background: #fff;
-	border-bottom: 1px solid #b7b7b7;
+	border-bottom: 2px solid rgba(183,183,183,0.5);
 }
 .social .left-block-social h2{
 	margin-top: 24px;
@@ -594,13 +594,14 @@ ul.tabs {
     font-family: "Raleway", sans-serif;
 }
 .comment{
-	width: 275px;
+	width: 20%;
 	height: 230px;
-	display: inline-block;
+	display: block;
 	margin-right:160px ;
     margin-top: 55px;
     position: relative;
     margin-bottom: 190px;
+	float: left;
 }
 #com{
 	margin-left: 100px;
@@ -645,7 +646,7 @@ ul.tabs {
     color: #86878b;
 }
 .comment:last-child{
-	margin: 0;
+	margin-right: 0;
 }
 .block8-section{
 	background: #9a9a9a;
@@ -731,7 +732,7 @@ ul.tabs {
 
 .block9-section textarea{
     width: 45%;
-    height: 152px;
+    height: 160px;
     margin-bottom: 40px;
     border: 0;
     border-bottom: 1px solid #d6d6d6;
@@ -760,9 +761,7 @@ footer .fa-facebook,footer .fa-twitter, footer .fa-google-plus,footer .fa-pinter
 	font-size: 24px;
 }
 @media screen and (max-width:1500px) {
-	#com{
-		margin-left: 0;
-	}
+
 }
 @media screen and (max-width:1380px) {
 	.fa-3x {
@@ -783,6 +782,10 @@ footer .fa-facebook,footer .fa-twitter, footer .fa-google-plus,footer .fa-pinter
 		margin-top: 0;
 		margin-bottom: 95px;
 	}
+	.comment{
+		margin-right: 110px;
+	}
+
 }
 @media screen and (max-width:1280px) {
 	.leftForm{
@@ -823,76 +826,90 @@ footer .fa-facebook,footer .fa-twitter, footer .fa-google-plus,footer .fa-pinter
 	.leftForm{
 		margin-right: 0;
 	}
+	.comment{
+		margin-left: 10%;
+		margin-bottom: 50px;
+	}
+	.comment:nth-of-type(4) {
+		margin-left: 35%;
+
+	}
+    .imageInsert p, .imageInsertTwo p{
+        line-height: 9em;
+        margin-top: 0;
+        vertical-align: middle;
+    }
+    .imageInsert{
+        margin-top: 25px;
+    }
+    .textTwo h2{
+        padding-top: 20px;
+    }
 }
 @media screen and (max-width:1024px) {
+
 	.leftForm{
 		margin-right: 0;
 	}
 	.form-registr{
 		margin: 0;
 	}
+	.comment{
+		width: 35%;
+		margin: 0 auto;
+		float: none;
+        margin-bottom: 20px;
+        margin-top: 20px;
+	}
+	#com{
+		margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+	}
+    .comment:nth-of-type(4) {
+        margin: 0 auto;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:945px){ 
-.imageInsert,.imageInsertTwo{ 
-width: 95%; 
-margin-right: 15px; 
-} 
-.text,.textTwo{ 
-width: 100%; 
-} 
-.tabs { 
-padding: 0; 
-margin: 0; 
-list-style: none; 
-text-align: center; 
-display: block; 
-font-size: 0; 
-} 
-
-.tabs:before { 
-content:''; 
-height: 100%; 
-display: inline-block; 
-} 
-
-.tabs { 
-padding: 10px; 
-margin: 0 20px; 
-font-size: 16px; 
-display: inline-block; 
-} 
-
-.tabs:before,.tabs li { 
-vertical-align: middle; 
-} 
-.vertical .tabs{ 
-float: none; 
-} 
-.tobs{ 
-float: none; 
-width: 100%; 
-margin-top: 0; 
-margin-bottom: 50px; 
-} 
-.vertical .tabs li:first-of-type{ 
-margin:2.6% 0.2% 0 23%; 
-} 
-.vertical .tabs li{ 
-padding: 0 13px 2px; 
-margin:20px 1px 1px 0; 
-} 
-.box{ 
-margin-top: 50px; 
-margin-left:0; 
-text-align: center; 
-} 
+    .imageInsert,.imageInsertTwo{
+        width: 95%;
+        margin-right: 15px;
+    }
+    .imageInsert p, .imageInsertTwo p{
+        display: table-cell;
+    }
+    .text,.textTwo{
+        width: 100%;
+    }
+    .tobs{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .vertical .tabs{
+        float: none;
+    }
+    .tabs li{
+        float: none;
+    }
+    .vertical .tabs li{
+        margin: 0 -1px 1px;
+        margin-top: 20px;
+    }
+    .box{
+        margin-top: 50px;
+        margin-left:0;
+        text-align: center;
+    }
 .block2-section img{ 
-margin: 0 auto; 
-display: block; 
-float: none; 
-margin-bottom: 30px; 
-} 
+		margin: 0 auto;
+		display: block;
+		float: none;
+		margin-bottom: 30px;
 }
 @media screen and (max-width:768px){
 	.left-block{
@@ -901,16 +918,63 @@ margin-bottom: 30px;
 	}
 	.right-block{
 		    display: block;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
+	}
+	.form-registr{
+		width: 100%;
 	}
 	.btn-dowload{
 		display: block;
 		padding: 20px 0;
-		width: 25%;
+		width: 30%;
 		text-align: center;
 		margin: 0 auto;
 	}
+	.socialIcon i{
+		margin: 0 10px 0 0;
+	}
+	.block8-section p:nth-child(3){
+		margin-bottom: 20px;
+	}
+	.block8-section p:nth-child(6){
+		margin-top: 0;
+	}
+    .comment {
+        width: 45%;
+    }
+}
+    @media screen and (max-width:615px){
+        .logo-small{
+            float: none;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .menu{
+            text-align: center;
+        }
+        .menu li{
+            display: inline-block;
+            float: none;
+        }
+    }
+@media screen and (max-width:600px){
+
+	.awesome{
+		width: 100%;
+		margin: 0;
+	}
+	.leftForm{
+		width: 100%;
+	}
+	.block9-section textarea{
+		width: 100%;
+	}
+    .comment {
+        width: 70%;
+    }
+
 }
 @media screen and (max-width:480px){
 	.right-block-social{
@@ -922,4 +986,53 @@ margin-bottom: 30px;
 		margin-right: 15px;
 		font-size: 1.8em;
 	}
+	.buySmall{
+		width: 100%;
+		margin-right: 0;
+		margin-top: 30px;
+	}
+	.buyBig{
+		width: 100%;
+		margin-right:0;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.line{
+		margin: 0 auto;
+	}
+	.left-block p{
+		width: 100%;
+	}
+	.left-block img{
+		display: block;
+		margin: 0 auto;
+	}
+	.block9-section p:nth-child(3){
+		margin-bottom: 25px;
+	}
+    .comment {
+        width: 80%;
+    }
+    footer .fa-facebook, footer .fa-twitter, footer .fa-google-plus, footer .fa-pinterest, footer .fa-instagram, footer .fa-rss, footer .fa-stumbleupon{
+        font-size: 1.3em;
+    }
+    .vertical .tabs li{
+        width: 30%;
+    }
+    .vertical .tabs li.current{
+        width: 30%;
+    }
+    .vertical .tabs li:hover {
+        width: 30%;
+    }
+    .imageInsert p, .imageInsertTwo p{
+        line-height: 12em;
+        font-size: 25px;
+    }
+    }
+}
+@media screen and (max-width:450px){
+    footer .fa-facebook, footer .fa-twitter, footer .fa-google-plus, footer .fa-pinterest, footer .fa-instagram, footer .fa-rss, footer .fa-stumbleupon{
+        font-size: 1.9em;
+    }
 }
